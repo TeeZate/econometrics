@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar as BootstrapNavbar, Container, Nav, Button } from 'react-bootstrap';
+import { Navbar as BootstrapNavbar, Container, Nav} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
