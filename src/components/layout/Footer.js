@@ -10,13 +10,13 @@ const Footer = () => {
             <h5 className="footer-heading">Econometrix</h5>
             <p className="company-description">Making financial data work smarter.</p>
             <div className="social-icons mt-3">
-              <a href="https://twitter.com/econometrix" aria-label="Twitter">
+              <a href="https://x.com/" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="https://linkedin.com/company/econometrix" aria-label="LinkedIn">
+              <a href="https://linkedin.com/" aria-label="LinkedIn">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://github.com/econometrix" aria-label="GitHub">
+              <a href="https://github.com/TeeZate/econometrics" aria-label="GitHub">
                 <i className="fab fa-github"></i>
               </a>
             </div>
