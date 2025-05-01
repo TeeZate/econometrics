@@ -5,6 +5,11 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 
 // Register ChartJS components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend);
+const LoadingSpinner = () => (
+  <div className="loading-spinner-container">
+    <div className="loading-spinner"></div>
+  </div>
+);
 
 const GraphSection = () => {
   const [activePeriod, setActivePeriod] = useState('1w');
@@ -173,7 +178,8 @@ const GraphSection = () => {
 
         <Row>
           <Col xs={12} lg={8} className="mb-4 mb-lg-0">
-            <div className="graph-card p-2 p-md-3 bg-white rounded shadow-sm">
+            <div className={`graph-card p-2 p-md-3 bg-white rounded shadow-sm ${isLoading ? 'loading' : ''}`}>
+              {isLoading && <LoadingSpinner />}
               <div style={{ height: chartDimensions.height }}>
                 <Line data={chartData} options={chartOptions} />
               </div>
@@ -209,51 +215,5 @@ const GraphSection = () => {
   );
 };
 
-// Add corresponding CSS
-const styles = `
-  .graph-section {
-    background-color: #f8f9fa;
-  }
-
-  .graph-card {
-    transition: all 0.3s ease;
-  }
-
-  .stat-card {
-    transition: all 0.3s ease;
-  }
-
-  .stat-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-  }
-
-  @media (max-width: 767.98px) {
-    .section-title {
-      font-size: 1.25rem;
-    }
-
-    .graph-controls {
-      overflow-x: auto;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-      padding-bottom: 0.5rem;
-    }
-
-    .stat-card {
-      margin-bottom: 0.75rem;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .graph-card {
-      padding: 1.5rem;
-    }
-
-    .stat-card {
-      margin-bottom: 1rem;
-    }
-  }
-`;
 
 export default GraphSection;
