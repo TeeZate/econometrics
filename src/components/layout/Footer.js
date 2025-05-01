@@ -10,29 +10,35 @@ const Footer = () => {
             <h5 className="footer-heading">Econometrix</h5>
             <p className="company-description">Making financial data work smarter.</p>
             <div className="social-icons mt-3">
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
-              <a href="#"><i className="fab fa-github"></i></a>
+              <a href="https://twitter.com/econometrix" aria-label="Twitter">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="https://linkedin.com/company/econometrix" aria-label="LinkedIn">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/econometrix" aria-label="GitHub">
+                <i className="fab fa-github"></i>
+              </a>
             </div>
           </Col>
 
           <Col md={2}>
             <h5 className="footer-heading">Product</h5>
             <ul className="footer-links">
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">API</a></li>
-              <li><a href="#">Documentation</a></li>
+              <li><a href="/features">Features</a></li>
+              <li><a href="/pricing">Pricing</a></li>
+              <li><a href="/api">API</a></li>
+              <li><a href="/docs">Documentation</a></li>
             </ul>
           </Col>
 
           <Col md={2}>
             <h5 className="footer-heading">Company</h5>
             <ul className="footer-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/careers">Careers</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/blog">Blog</a></li>
             </ul>
           </Col>
 
