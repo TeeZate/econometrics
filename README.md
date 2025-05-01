@@ -41,18 +41,18 @@ npm run eject - Ejects from Create React App
 
 ## 📁 Project Structure
 src/
-├── components/          # Reusable components
-│   ├── Navigation/     # Navigation components
-│   ├── Charts/         # Data visualization components
-│   └── Common/         # Shared components
-├── pages/              # Page components
-├── assets/             # Static assets
-├── styles/             # Global styles
-├── utils/             # Utility functions
-├── services/          # API services
-├── hooks/             # Custom hooks
-├── context/           # React context
-└── App.jsx            # Main application component
+├── components/          
+│   ├── Navigation/     
+│   ├── Charts/         
+│   └── Common/         
+├── pages/              
+├── assets/             
+├── styles/             
+├── utils/             
+├── services/          
+├── hooks/             
+├── context/           
+└── App.jsx            
 
 
 ## 🔧 Technologies Used
