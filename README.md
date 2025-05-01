@@ -40,19 +40,19 @@ npm run build - Builds the app for production
 npm run eject - Ejects from Create React App
 
 ## 📁 Project Structure
-src/
-├── components/          
-│   ├── Navigation/     
-│   ├── Charts/         
-│   └── Common/         
-├── pages/              
-├── assets/             
-├── styles/             
-├── utils/             
-├── services/          
-├── hooks/             
-├── context/           
-└── App.jsx            
+-src/
+-├── components/          
+-│   ├── Navigation/     
+-│   ├── Charts/         
+-│   └── Common/         
+-├── pages/              
+-├── assets/             
+-├── styles/             
+-├── utils/             
+-├── services/          
+-├── hooks/             
+-├── context/           
+-└── App.jsx            
 
 
 ## 🔧 Technologies Used
