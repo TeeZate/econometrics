@@ -177,6 +177,6 @@ React Bootstrap contributors
 All project contributors
 
 ## 📞 Support
-For support, email your-email or open an issue in the repository.
+For support, email tinotendazhakata@gmail.com or open an issue in the repository.
 
 Made with ❤️ by Tinotenda Zhakata
