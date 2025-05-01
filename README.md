@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+# Econometrix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Econometrix is a React-based web application for economic data analysis and visualization. This project was bootstrapped with Create React App and uses modern React practices including hooks, React Router, and React Bootstrap.
 
-## Available Scripts
+## 🚀 Quick Start
 
-In the project directory, you can run:
+### Prerequisites
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-### `npm start`
+### Installation
+1. Clone the repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone [repository-url]
+cd econometrix
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Copy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Insert at cursor
+markdown
+Install dependencies
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Copy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Insert at cursor
+bash
+Start the development server
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Insert at cursor
+bash
+The application will open in your default browser at http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠️ Available Scripts
+npm start - Runs the app in development mode
 
-## Learn More
+npm test - Launches the test runner
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run build - Builds the app for production
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run eject - Ejects from Create React App
 
-### Code Splitting
+📁 Project Structure
+src/
+├── components/          # Reusable components
+│   ├── Navigation/     # Navigation components
+│   ├── Charts/         # Data visualization components
+│   └── Common/         # Shared components
+├── pages/              # Page components
+├── assets/             # Static assets
+├── styles/             # Global styles
+├── utils/             # Utility functions
+├── services/          # API services
+├── hooks/             # Custom hooks
+├── context/           # React context
+└── App.jsx            # Main application component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+🔧 Technologies Used
+Frontend Framework: React 18
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Routing: React Router v6
 
-### Making a Progressive Web App
+UI Components: React Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+State Management: React Context/Hooks
 
-### Advanced Configuration
+Styling: CSS Modules
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+HTTP Client: Axios
 
-### Deployment
+Testing: Jest & React Testing Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🎨 Features
+Responsive design
 
-### `npm run build` fails to minify
+Modern UI components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Economic data visualization
+
+Interactive charts and graphs
+
+Data analysis tools
+
+User-friendly navigation
+
+📚 Documentation
+Component Structure
+Components are organized following atomic design principles:
+
+Atoms: Basic building blocks
+
+Molecules: Groups of atoms
+
+Organisms: Groups of molecules
+
+Templates: Page layouts
+
+Pages: Specific instances of templates
+
+Styling Guidelines
+CSS Modules for component-specific styles
+
+Global styles for common elements
+
+Bootstrap utilities for layout and spacing
+
+Consistent color scheme and typography
+
+Best Practices
+Component composition over inheritance
+
+Custom hooks for reusable logic
+
+Proper error handling
+
+Accessibility compliance
+
+Performance optimization
+
+🔐 Environment Variables
+Create a .env file in the root directory:
+
+REACT_APP_API_URL=your_api_url
+REACT_APP_API_KEY=your_api_key
+
+
+🧪 Testing
+# Run all tests
+npm test
+
+# Run tests with coverage
+npm test -- --coverage
+
+
+📦 Building for Production
+npm run build
+
+
+This creates an optimized production build in the build folder.
+
+🤝 Contributing
+Fork the repository
+
+Create a feature branch
+
+Commit your changes
+
+Push to the branch
+
+Open a pull request
+
+🐛 Bug Reports
+Please use the GitHub Issues tab to report bugs. Include:
+
+Description of the issue
+
+Steps to reproduce
+
+Expected behavior
+
+Actual behavior
+
+Screenshots (if applicable)
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👥 Authors
+Your Name
+
+Contributors
+
+🙏 Acknowledgments
+Create React App team
+
+React Bootstrap contributors
+
+All project contributors
+
+📞 Support
+For support, email your-email or open an issue in the repository.
+
+Made with ❤️ by Tinotenda Zhakata
