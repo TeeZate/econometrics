@@ -16,31 +16,21 @@ git clone [repository-url]
 cd econometrix
 
 
-Copy
-
-Insert at cursor
-markdown
-Install dependencies
+## Install dependencies
 
 npm install
 
 
-Copy
 
-Insert at cursor
-bash
-Start the development server
+## Start the development server
 
 npm start
 
 
-Copy
 
-Insert at cursor
-bash
-The application will open in your default browser at http://localhost:3000
+## The application will open in your default browser at http://localhost:3000
 
-🛠️ Available Scripts
+## 🛠️ Available Scripts
 npm start - Runs the app in development mode
 
 npm test - Launches the test runner
@@ -49,7 +39,7 @@ npm run build - Builds the app for production
 
 npm run eject - Ejects from Create React App
 
-📁 Project Structure
+## 📁 Project Structure
 src/
 ├── components/          # Reusable components
 │   ├── Navigation/     # Navigation components
@@ -65,7 +55,7 @@ src/
 └── App.jsx            # Main application component
 
 
-🔧 Technologies Used
+## 🔧 Technologies Used
 Frontend Framework: React 18
 
 Routing: React Router v6
@@ -80,7 +70,7 @@ HTTP Client: Axios
 
 Testing: Jest & React Testing Library
 
-🎨 Features
+## 🎨 Features
 Responsive design
 
 Modern UI components
@@ -93,7 +83,7 @@ Data analysis tools
 
 User-friendly navigation
 
-📚 Documentation
+## 📚 Documentation
 Component Structure
 Components are organized following atomic design principles:
 
@@ -107,7 +97,7 @@ Templates: Page layouts
 
 Pages: Specific instances of templates
 
-Styling Guidelines
+## Styling Guidelines
 CSS Modules for component-specific styles
 
 Global styles for common elements
@@ -116,7 +106,7 @@ Bootstrap utilities for layout and spacing
 
 Consistent color scheme and typography
 
-Best Practices
+## Best Practices
 Component composition over inheritance
 
 Custom hooks for reusable logic
@@ -127,14 +117,14 @@ Accessibility compliance
 
 Performance optimization
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 Create a .env file in the root directory:
 
 REACT_APP_API_URL=your_api_url
 REACT_APP_API_KEY=your_api_key
 
 
-🧪 Testing
+### 🧪 Testing
 # Run all tests
 npm test
 
@@ -142,13 +132,13 @@ npm test
 npm test -- --coverage
 
 
-📦 Building for Production
+## 📦 Building for Production
 npm run build
 
 
 This creates an optimized production build in the build folder.
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the repository
 
 Create a feature branch
@@ -159,7 +149,7 @@ Push to the branch
 
 Open a pull request
 
-🐛 Bug Reports
+## 🐛 Bug Reports
 Please use the GitHub Issues tab to report bugs. Include:
 
 Description of the issue
@@ -172,22 +162,21 @@ Actual behavior
 
 Screenshots (if applicable)
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👥 Authors
-Your Name
+## 👥 Authors
+Tinotenda Robini Zhakata
 
-Contributors
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Create React App team
 
 React Bootstrap contributors
 
 All project contributors
 
-📞 Support
+## 📞 Support
 For support, email your-email or open an issue in the repository.
 
 Made with ❤️ by Tinotenda Zhakata
